@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# WordPress
+wp-content/uploads/
+wp-config.php
+wp-config-local.php
+
+# Build / dependencies
+vendor/
+node_modules/
+
+# Composer
+composer.lock
+
+# ZIP archives (keep source clean)
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
