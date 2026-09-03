@@ -1,9 +1,9 @@
-# Effortless WebP Converter
+# WordPress WebP Image Converter
 
 [![WordPress Plugin](https://img.shields.io/badge/WordPress-Plugin-blue?logo=wordpress)](https://wordpress.org)
 [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-777bb4?logo=php)](https://php.net)
 [![License](https://img.shields.io/badge/License-GPL%202.0%2B-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/nasratulnayem/effortless-webp-converter/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/nasratulnayem/wordpress-webp-image-converter/pulls)
 
 **Effortlessly convert WordPress images to WebP from the dashboard. Serves WebP automatically to supported browsers — safe, fast, no originals lost.**
 
@@ -63,7 +63,7 @@
 
 ## Installation
 
-1. Download the latest release from [GitHub Releases](https://github.com/nasratulnayem/effortless-webp-converter/releases)
+1. Download the latest release from [GitHub Releases](https://github.com/nasratulnayem/wordpress-webp-image-converter/releases)
 2. Upload the `effortless-webp-converter` folder to `/wp-content/plugins/`
 3. Activate **Effortless WebP Converter** from the WordPress **Plugins** screen
 4. Go to **Tools → WebP Converter**
@@ -73,7 +73,7 @@
 ### Quick install via WP-CLI
 
 ```bash
-wp plugin install https://github.com/nasratulnayem/effortless-webp-converter/releases/download/v0.1.0/effortless-webp-converter.zip --activate
+wp plugin install https://github.com/nasratulnayem/wordpress-webp-image-converter/releases/download/v0.1.0/effortless-webp-converter.zip --activate
 wp eval 'do_action("ewc_scan");'
 ```
 
@@ -118,7 +118,7 @@ Originals are **never modified or deleted**. The plugin only creates new `.webp`
 
 ```bash
 # Clone the repo
-git clone https://github.com/nasratulnayem/effortless-webp-converter.git
+git clone https://github.com/nasratulnayem/wordpress-webp-image-converter.git
 
 # Install dependencies (if any)
 # No build step required — this is a vanilla PHP plugin
@@ -175,7 +175,7 @@ Yes. The WebP serving logic runs during page rendering (via filters), so cached 
 
 ## Contributing
 
-Contributions are welcome! Please open an [issue](https://github.com/nasratulnayem/effortless-webp-converter/issues) or [pull request](https://github.com/nasratulnayem/effortless-webp-converter/pulls).
+Contributions are welcome! Please open an [issue](https://github.com/nasratulnayem/wordpress-webp-image-converter/issues) or [pull request](https://github.com/nasratulnayem/wordpress-webp-image-converter/pulls).
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -193,5 +193,5 @@ GPL-2.0-or-later — see [LICENSE](LICENSE) for details.
 
 ## Support
 
-- [GitHub Issues](https://github.com/nasratulnayem/effortless-webp-converter/issues)
+- [GitHub Issues](https://github.com/nasratulnayem/wordpress-webp-image-converter/issues)
 - [WordPress Plugin Support](https://wordpress.org/support/plugin/effortless-webp-converter)
