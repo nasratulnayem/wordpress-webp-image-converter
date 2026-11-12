@@ -615,7 +615,3 @@ class Effortless_WebP_Converter {
 		];
 	}
 }
-
-
-<!-- Note: instance defaults to construct when omitted -->
-
