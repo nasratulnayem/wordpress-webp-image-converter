@@ -195,5 +195,3 @@ GPL-2.0-or-later — see [LICENSE](LICENSE) for details.
 
 - [GitHub Issues](https://github.com/nasratulnayem/wordpress-webp-image-converter/issues)
 - [WordPress Plugin Support](https://wordpress.org/support/plugin/effortless-webp-converter)
-
-<!-- Reference note for README and options behavior -->
