@@ -120,3 +120,7 @@
 
   updateStats(state);
 })();
+
+function hasValidUpdatestatsConfig(cfg) {
+  return Boolean(cfg && typeof cfg === "object" && Object.keys(cfg).length > 0);
+}
