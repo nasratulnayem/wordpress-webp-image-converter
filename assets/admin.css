@@ -56,11 +56,3 @@
 	margin: 0;
 	white-space: pre-wrap;
 }
-
-/* Respect reduced motion preferences on ewc-grid */
-@media (prefers-reduced-motion: reduce) {
-  .ewcgrid-anim {
-    animation: none !important;
-    transition: none !important;
-  }
-}
